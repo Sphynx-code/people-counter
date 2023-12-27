@@ -14,6 +14,7 @@ function save(){
     savestr = count + " - ";;
     saverender.textContent += savestr; 
     countdisplay.textContent = 0;
+     count = 0;
 
 
 }
