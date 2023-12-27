@@ -1,0 +1,131 @@
+*{
+
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+       background-image: url("5e4c655b9353e0be289273b3e7c4b227.jpg");
+background-size: cover;
+
+
+background-repeat: no-repeat;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+
+/* Styles for small screens (Mobile) */
+@media only screen and (max-width: 767px) {
+
+  body {
+    width: 100vw;
+    height: 100vh;
+    font-size: 12px;
+   
+  }
+  #save-btn{
+    margin-left: 5.8em;
+  }
+  div{
+   min-height: 24em;
+    width: 25em;
+  }
+
+}
+
+/* Styles for medium to large screens (Tablet to Desktop) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+ 
+  body {
+    width: 100vw;
+    height: 100vh;
+    font-size: 16px;}
+    #save-btn{
+      margin-left: 9em;
+
+    }
+    div{
+      width: 24em;
+      min-height: 18em;
+     
+      
+    }
+   
+  }
+
+
+/* Styles for large screens (Desktop) */
+@media only screen and (min-width: 1025px) {
+  
+  body {
+    width: 100vw;
+    height: 100vh;
+    font-size: 18px;
+  }
+  #save-btn{
+    margin-left:9.5em;
+  }
+  div{
+    width: 22em;
+   min-height:18em;
+    
+  
+  }
+
+}
+
+  
+
+
+div{
+  
+  
+
+    background-color: rgba(250, 235, 215, 0.658);
+    text-align: center;
+  border: 6px solid black;
+  border-radius: 5px;
+  
+}
+
+h1 {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif , Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 900;
+
+}
+#save-btn{
+  display: block;
+ 
+  margin-top: 2em;
+  width: 10em;
+  height: 2.5em;
+  background-color: brown;
+  color: white;
+  border-radius: 5px;
+ 
+ 
+}
+#increment-btn{
+  margin-top: 10px;
+  width: 10em;
+  height: 2.5em;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+}
+p{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+text-align: left;
+ margin-top: 2.5em;
+  margin-left:1.7em;
+}
+
+#refresh-btn{
+  margin-top: 16px;
+  width: 10em;
+  height: 2.5em;
+  background-color: rgb(255, 209, 4);
+  color: white;
+  border-radius: 5px;
+}
